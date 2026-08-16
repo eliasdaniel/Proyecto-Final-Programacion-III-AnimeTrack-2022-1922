@@ -1,0 +1,25 @@
+{
+  "name": "animetrack",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Catalogo de animes con seguimiento de estados (Viendo, Completado, Pendiente) usando la API publica AniList.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node scripts/run-e2e.mjs",
+    "test:demo": "node scripts/run-e2e.mjs --demo"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "docx": "^9.7.1",
+    "mocha": "^10.7.3",
+    "selenium-webdriver": "^4.25.0",
+    "vite": "^5.4.8"
+  }
+}
